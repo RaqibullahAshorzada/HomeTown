@@ -5,7 +5,41 @@ body {
     text-align: center;
 }
 .header {
-    height: 80px;
-    width: 100%;
-    background-image: url("torshov-image.png");
+    height: 560px;;
+    width:auto;
+    background-image: url("torshov-image.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.first-heading {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 37px;
+    width: 430px;
+    height: 45px;
+    background-color: #1D3557;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 0;
+
+
+
+}
+.first-paragraph {
+    text-align: center;
+    background-color: #457B9D;
+    font-size: 19px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 580px;
+    border-radius: 10px;
+    letter-spacing: 3.5px;
 }
