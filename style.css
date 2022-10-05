@@ -51,6 +51,7 @@ body {
     background-color: #F1FAEE;
     width: auto;
     height: 429px;
+    margin-bottom: 50px;
 }
 .main-header {
     display: inline-block;
@@ -75,3 +76,29 @@ img {
  color: #1D3557;
 }
 /* This is the code for the footer of the project */
+.footer {
+    background-color: #FFFFFF;
+    width: auto;
+    height: 350px;
+}
+.card {
+    background-color: #A8DADC;
+    width: 430px;
+    height: 285px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    color: #1D3557;
+}
+.card-img {
+    width: 180px;
+    height: 248.67px;
+    border-radius: 1px;
+    padding: 10px;
+}
+.card-header {
+    font-size: 24px;
+}
+.card-footer-txt {
+    font-size: 20px;
+}
